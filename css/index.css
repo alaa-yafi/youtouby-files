@@ -1,0 +1,75 @@
+@font-face {
+    font-family:"cairofont";
+    src: url(..fonts/cairo.Regular.ttf);
+}
+#top-menu .bg-light{
+    background-color: white  !important;
+}
+body{
+    font-family: "cairofont",arial,sans-serif;
+    background-color: rgb(247, 250, 253);
+}
+a{
+    color:black;
+    text-decoration: none !important;
+}
+button{
+    background-color: transparent !important;
+
+    color: rgb(189, 8, 189) !important;
+    border-color:rgb(189, 8, 189)  !important;
+}
+button:hover { 
+    color: white !important;
+    background-color: rgb(189, 8, 189) !important;
+
+}
+#top-menu .video-icon
+{ background-color: rgb(189, 8, 189);
+    color:white;
+border-radius:15%;
+}
+.navbar .navbar-nav  .nav-link:hover,
+.navbar .navbar-nav  .active>.nav-link{
+    color:white;
+background-color: rgb(189, 8, 189);
+
+} 
+.navbar .login{
+    color: rgb(189, 8, 189);
+}
+.modal .modal-header .close:hover{
+    color:rgb(189, 8, 189) !important;
+    background-color: transparent !important;
+}
+input.form-control:focus,
+button:focus{ box-shadow:none !important}
+.card .card-icons{position:relative;}
+time{
+    position: absolute;
+    bottom:10px;
+    left:7px;
+    color:white;
+    background-color: black;
+    padding: opx 3px
+}
+.card .fa-play{
+    position: absolute;
+    top:43%;
+    right:41%;
+    color:rgb(77, 75, 75);
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover {
+    transform: translatey(-.9%);
+   
+}
+.card{
+    transition: transform .5s;
+}
+#top-menu .fa-bars{
+    cursor:pointer;
+}
