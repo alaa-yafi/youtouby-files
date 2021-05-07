@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
     $(".first-list-element").addClass("active");
     //لحذف الصنف النشط، ووضعه عندما يُضغط على أحد أزرار القائمة العلوية
     $(".nav-item").click(function () {

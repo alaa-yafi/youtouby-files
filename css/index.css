@@ -13,13 +13,13 @@ a {
 /*تغيير الألوان الإفتراضية لجميع الأزرار في الموقع*/
 button {
     background-color: transparent !important;
-    color: rosybrown!important;
-    border-color: rosybrown!important;
+    color: rgb(21, 150, 209) !important;
+    border-color: rgb(21, 150, 209) !important;
 }
 /*تغيير الألوان الإفتراضية لجميع الأزرار في الموقع عند مرور مؤشر الفأرة على الزر*/
 button:hover {
     color: #fff !important;
-    background-color: rosybrown !important;
+    background-color: rgb(21, 150, 209) !important;
 }
 /*flex يجب علينا وضع هذه الخاصية للابن "جسم البطاقة" لأن البطاقة لديها قيمة عرض*/
 .card-body {
@@ -36,7 +36,7 @@ button:hover {
 }
 /*وضع دائرة حول أيقونة شعار الموقع*/
 #top-menu .video-icon {
-    background-color: rgb(21, 150, 209);
+    background-color: rgb(21, 150, 209);;
     color: #fff;
     border-radius: 15%;
 }
@@ -44,15 +44,15 @@ button:hover {
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active>.nav-link {
     color: #fff;
-    background-color: rgb(21, 150, 209);
+    background-color: rgb(21, 150, 209);;
 }
 /*تغيير لون رابط تسجيل الدخول*/
 .navbar .login {
-    color: rgb(21, 150, 209);
+    color: rgb(21, 150, 209);;
 }
 /*x تغيير ألوان إشارة*/
 .modal .modal-header .close:hover {
-    color: rgb(21, 150, 209)!important;
+    color: rgb(21, 150, 209) !important;
     background-color: transparent !important;
 }
 /*إخفاء الظل الذي يظهر حول مربع البحث والأزرار عند الضغط عليه*/
@@ -113,12 +113,12 @@ time {
 }
 /*تغيير ألوان الأيقونات في القائمة الجانبية*/
 .sidebar .purple {
-    color:rgb(21, 150, 209);
+    color:rgb(21, 150, 209);;
 }
 /*تغيير ألوان عناصر القائمة عند مرور مؤشر الفأرة على القائمة الجانبية*/
 .sidebar .list-group-item:hover {
     color:#fff;
-    background-color: rgb(21, 150, 209);
+    background-color: rgb(21, 150, 209);;
 }
 /*تغيير لون الأيقونات أيضًا عند مرور مؤشر الفأرة على القائمة الجانبية*/
 .sidebar .list-group-item:hover .purple {
@@ -153,7 +153,7 @@ time {
     display: none;
 }
 .navbar .search-icon {
-    color: rgb(21, 150, 209);
+    color: rgb(21, 150, 209);;
     cursor: pointer;
     padding: 15px 10px;
     position: absolute;
@@ -163,7 +163,7 @@ time {
 }
 .navbar .search-icon:hover {
     color: #fff;
-    background-color: rgb(21, 150, 209);
+    background-color: rgb(21, 150, 209);;
 }
 /*تنسيق حقل الإدخال الذي سيظهر عند الضغط على أيقونة البحث*/
 .search-input {
